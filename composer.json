@@ -1,0 +1,13 @@
+{
+    "name": "jonz/mta",
+    "description": "mta subway feed test",
+    "require": {
+        "google/gtfs-realtime-bindings": "^0.0.2"
+    },
+    "authors": [
+        {
+            "name": "Jon Zielenkievicz",
+            "email": "jzielenkievicz@nycgo.com"
+        }
+    ]
+}
