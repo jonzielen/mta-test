@@ -152,5 +152,121 @@
         "keywords": [
             "gtfs-realtime"
         ]
+    },
+    {
+        "name": "symfony/yaml",
+        "version": "v2.6.7",
+        "version_normalized": "2.6.7.0",
+        "target-dir": "Symfony/Component/Yaml",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Yaml.git",
+            "reference": "f157ab074e453ecd4c0fa775f721f6e67a99d9e2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/Yaml/zipball/f157ab074e453ecd4c0fa775f721f6e67a99d9e2",
+            "reference": "f157ab074e453ecd4c0fa775f721f6e67a99d9e2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "~2.7"
+        },
+        "time": "2015-05-02 15:18:45",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.6-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Yaml\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "protocolbuffers/protoc-gen-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/chobie/protoc-gen-php.git",
+            "reference": "17418572b1a9e4768936006b328ad2fbebb43983"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/chobie/protoc-gen-php/zipball/17418572b1a9e4768936006b328ad2fbebb43983",
+            "reference": "17418572b1a9e4768936006b328ad2fbebb43983",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcre": "*",
+            "ext-protocolbuffers": "*",
+            "php": ">=5.3.3",
+            "symfony/console": ">=2.4.2",
+            "symfony/yaml": ">=2.4.2"
+        },
+        "require-dev": {
+            "nikic/php-parser": "dev-master",
+            "phpspec/prophecy-phpunit": "~1.0",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2014-08-27 16:32:15",
+        "bin": [
+            "bin/protoc-gen-php"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.1.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "protocolbuffers": "src"
+            },
+            "files": [
+                "proto/autoload.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Shuhei Tanuma",
+                "email": "chobieeee@php.net",
+                "role": "lead"
+            }
+        ],
+        "description": "protoc generator plugin for PECL ProtocolBuffers",
+        "homepage": "https://github.com/chobie/protoc-gen-php",
+        "keywords": [
+            "protoc",
+            "protocol buffers"
+        ]
     }
 ]

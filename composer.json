@@ -2,7 +2,8 @@
     "name": "jonz/mta",
     "description": "mta subway feed test",
     "require": {
-        "google/gtfs-realtime-bindings": "^0.0.2"
+        "google/gtfs-realtime-bindings": "^0.0.2",
+        "protocolbuffers/protoc-gen-php": "dev-master"
     },
     "authors": [
         {

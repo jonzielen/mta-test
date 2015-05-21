@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'protocolbuffers' => array($vendorDir . '/protocolbuffers/protoc-gen-php/src'),
+    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'DrSlump' => array($vendorDir . '/centraldesktop/protobuf-php/library'),
 );
