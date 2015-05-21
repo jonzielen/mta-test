@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b92aba917266bf00eaf666bbf8a555b7",
+    "hash": "4b3bccb40938616a812af77ee0e4c8b1",
     "packages": [
         {
             "name": "centraldesktop/protobuf-php",

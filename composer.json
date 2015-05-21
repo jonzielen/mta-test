@@ -3,7 +3,8 @@
     "description": "mta subway feed test",
     "require": {
         "google/gtfs-realtime-bindings": "^0.0.2",
-        "protocolbuffers/protoc-gen-php": "dev-master"
+        "protocolbuffers/protoc-gen-php": "dev-master",
+        "centraldesktop/protobuf-php": "0.5.*"
     },
     "authors": [
         {
